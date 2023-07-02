@@ -53,10 +53,10 @@ function PageClientComponent() {
                 <BiSolidRightArrow size={20} color={'white'} />
             </button>
             <div className="h-full flex flex-row bg-gray-100">
-              <div className={`h-full ${isSidebarVisible ? 'w-2/3' : 'w-full'} p-5`}>
+              <div className={`h-full w-full md:${isSidebarVisible ? 'w-2/3' : 'w-full'} p-3 lg:p-5`}>
                 <h1 className='uppercase text-xl font-bold text-red-400 h-8'>Discussion Fourm</h1>
                 <div className='pl-2 lg:pl-10 pr-2 lg:pr-5 h-full'>
-                  <label className='h-10 text-xl font-semibold'>Filters</label>
+                  <label className='h-10 text-xl text-black font-semibold'>Filters</label>
                   <div className='bg-white relative flex w-full h-18 justify-evenly py-5 px-4 rounded-lg'>
                       <div className='w-fit h-6 lg:h-8 px-3 py-1 bg-red-700 text-[8px] lg:text-base text-white border border-solid rounded-full'>Sector 1</div>
                       <div className='w-fit h-6 lg:h-8 px-3 py-1 bg-blue-800 text-[8px] lg:text-base text-white border border-solid rounded-full'>Sector 2</div>
@@ -183,7 +183,7 @@ function PageClientComponent() {
                   </div>
                 </div>
               </div>
-              <div className={`h-full ${isSidebarVisible ? 'w-1/3' : 'w-full'} p-5`}>
+              <div className={`h-full hidden md:block ${isSidebarVisible ? 'w-1/3' : 'w-full'} p-5`}>
               <h1 className='uppercase text-xl font-bold text-red-400 bg-gray-100 h-8 pl-5'>Market Stories</h1>
               <div className='flex flex-wrap justify-between custom-height-market-story gap-5 overflow-auto p-5'>
                 {market_stories.map((story,i)=>(
