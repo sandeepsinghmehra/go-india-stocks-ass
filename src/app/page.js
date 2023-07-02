@@ -12,9 +12,7 @@ export default function Home() {
         <MarqueeHeader />
         <SnapCarousel />
         <PageClientComponent />
-        <div className='absolute bottom-10 right-10 bg-blue-900 rounded-full p-3'>
-          <AiOutlinePlus size={40} color='white' />
-        </div>
+        <AiOutlinePlus size={60} color='white' className='w-12 lg:w-16 h-12 lg:h-16 absolute bottom-10 right-10 bg-blue-900 rounded-full p-3'/>
     </main>
   )
 }

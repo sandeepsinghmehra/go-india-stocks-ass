@@ -55,15 +55,15 @@ function PageClientComponent() {
             <div className="h-full flex flex-row bg-gray-100">
               <div className={`h-full ${isSidebarVisible ? 'w-2/3' : 'w-full'} p-5`}>
                 <h1 className='uppercase text-xl font-bold text-red-400 h-8'>Discussion Fourm</h1>
-                <div className='pl-10 pr-5 h-full'>
+                <div className='pl-2 lg:pl-10 pr-2 lg:pr-5 h-full'>
                   <label className='h-10 text-xl font-semibold'>Filters</label>
-                  <div className='bg-white flex h-18 justify-evenly py-5 rounded-lg'>
-                      <div className='w-fit h-8 px-3 py-1 bg-red-700 text-white border border-solid rounded-full'>Sector 1</div>
-                      <div className='w-fit h-8 px-3 py-1 bg-blue-800 text-white border border-solid rounded-full'>Sector 2</div>
-                      <div className='w-fit h-8 px-3 py-1 bg-yellow-400 text-white border border-solid rounded-full'>Sector 3</div>
-                      <div className='w-fit h-8 bg-gray-300 flex justify-end items-center border border-solid border-gray-300 rounded-full'>
+                  <div className='bg-white relative flex w-full h-18 justify-evenly py-5 px-4 rounded-lg'>
+                      <div className='w-fit h-6 lg:h-8 px-3 py-1 bg-red-700 text-[8px] lg:text-base text-white border border-solid rounded-full'>Sector 1</div>
+                      <div className='w-fit h-6 lg:h-8 px-3 py-1 bg-blue-800 text-[8px] lg:text-base text-white border border-solid rounded-full'>Sector 2</div>
+                      <div className='w-fit h-6 lg:h-8 px-3 py-1 bg-yellow-400 text-[8px] lg:text-base text-white border border-solid rounded-full'>Sector 3</div>
+                      <div className='w-fit h-6 lg:h-8 bg-gray-300 flex justify-end items-center border border-solid border-gray-300 rounded-full'>
                         <FiSearch size={20} color='black' className='inline-block' />
-                        <input type={'text'} placeholder='Search here' className='bg-inherit rounded-r-full pl-1 focus:outline-none'/>
+                        <input type={'text'} placeholder='Search here' className='bg-inherit rounded-r-full text-[10px] lg:text-base w-16 lg:w-28 pl-1 focus:outline-none'/>
                       </div>
                   </div>
                   <div className='discussion-section-height overflow-auto'>
