@@ -26,7 +26,7 @@ export default function MarqueeHeader(){
     return (
         <marquee className={'bg-black flex text-white h-6 m-0 p-0'} loop={-1} behavior="scroll" direction="right" scrollamount="20">
             {stockInfo.map((stock, i)=>(
-            <div class="inline-block font-bold h-fit">
+            <div key={i} class="inline-block font-bold h-fit">
                 <span className='px-3'>{stock.bank_name}</span>
                 <span className='px-3'>{stock.value}</span>
                 <span className='text-red-500 px-5'>{stock.percent}%</span>
