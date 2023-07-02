@@ -25,3 +25,12 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.height-main-section{
+  height: calc(100% - 176px);
+}
+.custom-height-market-story{
+  height: calc(100% - 32px);
+}
+.discussion-section-height{
+  height: calc(100% - 136px);
+}
