@@ -34,3 +34,7 @@ body {
 .discussion-section-height{
   height: calc(100% - 136px);
 }
+
+.webkit-scrollbar::-webkit-scrollbar {
+  width: 0px;
+}
