@@ -49,7 +49,7 @@ export default function SnapCarousel(){
                 {Companies_info.map((company, i)=>(
                     <Image
                         key={i}
-                        className="relative snap-start object-cover w-14 h-14 lg:w-40 lg:h-14 border lg:border-none border-solid border-red-500 rounded-full lg:rounded-none px-1 mx-2 lg:px-3"
+                        className="relative snap-start scroll-ml-4 object-cover w-14 h-14 lg:w-40 lg:h-14 border lg:border-none border-solid border-red-500 rounded-full lg:rounded-none px-1 mx-2 lg:px-3"
                         src={company.image_url}
                         alt={company.alt_text}
                         width={110}
