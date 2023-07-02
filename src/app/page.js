@@ -51,7 +51,7 @@ export default function Home() {
         <Navbar />
         <MarqueeHeader />
         <p className='uppercase text-sm lg:text-xl font-bold text-red-400 bg-white h-8 pl-5 flex items-center'>Featured Companies</p>
-        <div className="overflow-x-auto snap snap-x snap-mandatory flex relative bg-cyan-50 px-3">
+        <div className="overflow-x-auto snap snap-x snap-mandatory flex relative bg-cyan-50 px-3 scrollbar-hide" >
           {Companies_info.map((company, i)=>(
             <Image
               key={i}
