@@ -185,7 +185,7 @@ function PageClientComponent() {
               </div>
               <div className={`h-full ${isSidebarVisible ? 'w-1/3' : 'w-full'} p-5`}>
               <h1 className='uppercase text-xl font-bold text-red-400 bg-gray-100 h-8 pl-5'>Market Stories</h1>
-              <div className='flex flex-wrap justify-between custom-height-market-story gap-10 overflow-auto p-5'>
+              <div className='flex flex-wrap justify-between custom-height-market-story gap-5 overflow-auto p-5'>
                 {market_stories.map((story,i)=>(
                 <div key={i} className="relative w-fit h-fit flex place-items-center rounded-lg">
                   <Image
