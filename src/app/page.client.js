@@ -44,7 +44,7 @@ function PageClientComponent() {
   return (
     <div className={`flex-1 relative height-main-section flex bg-white`}>
         {isSidebarVisible && (
-        <aside className='bg-blue-900 w-60 h-full flex-shrink-0 transition-all duration-300'>
+        <aside className='bg-blue-900 w-44 lg:w-60 h-full flex-shrink-0 transition-all duration-300'>
           <Sidebar />
         </aside>
         )}
