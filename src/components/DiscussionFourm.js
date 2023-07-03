@@ -8,17 +8,17 @@ import { FcBusinessman, FcBusinesswoman } from 'react-icons/fc';
 export default function DiscussionFourm(){
     return (
         <div id={"discussion-fourm"} className='pl-2 lg:pl-10 pr-2 lg:pr-5 h-full'>
-                  <label className='h-10 text-xl text-black font-semibold'>Filters</label>
-                  <div className='bg-white relative flex w-full h-18 justify-evenly py-2 lg:py-5 px-1 lg:px-4 rounded-lg'>
-                      <div className='w-fit h-6 lg:h-8 px-3 py-1 bg-red-700 text-[8px] lg:text-base text-white border border-solid rounded-full'>Sector 1</div>
-                      <div className='w-fit h-6 lg:h-8 px-3 py-1 bg-blue-800 text-[8px] lg:text-base text-white border border-solid rounded-full'>Sector 2</div>
-                      <div className='w-fit h-6 lg:h-8 px-3 py-1 bg-yellow-400 text-[8px] lg:text-base text-white border border-solid rounded-full'>Sector 3</div>
-                      <div className='w-fit h-6 lg:h-8 bg-gray-300 flex justify-end items-center border border-solid border-gray-300 rounded-full'>
-                        <FiSearch size={20} color='black' className='inline-block' />
-                        <input type={'text'} placeholder='Search here' className='bg-inherit rounded-r-full text-[10px] lg:text-base w-16 lg:w-28 pl-1 focus:outline-none'/>
-                      </div>
-                  </div>
-                  <div className='discussion-section-height overflow-auto'>
+          <label className='h-10 text-xl text-black font-semibold'>Filters</label>
+          <div className='bg-white relative flex w-full h-18 justify-evenly py-2 lg:py-5 px-1 lg:px-4 rounded-lg'>
+            <div className='w-fit h-6 lg:h-8 px-3 py-1 bg-red-700 text-[8px] lg:text-base text-white border border-solid rounded-full'>Sector 1</div>
+            <div className='w-fit h-6 lg:h-8 px-3 py-1 bg-blue-800 text-[8px] lg:text-base text-white border border-solid rounded-full'>Sector 2</div>
+            <div className='w-fit h-6 lg:h-8 px-3 py-1 bg-yellow-400 text-[8px] lg:text-base text-white border border-solid rounded-full'>Sector 3</div>
+            <div className='w-fit h-6 lg:h-8 bg-gray-300 flex justify-end items-center border border-solid border-gray-300 rounded-full'>
+              <FiSearch size={20} color='black' className='inline-block' />
+              <input type={'text'} placeholder='Search here' className='bg-inherit rounded-r-full text-[10px] lg:text-base w-16 lg:w-28 pl-1 focus:outline-none'/>
+            </div>
+          </div>
+          <div className='discussion-section-height overflow-auto'>
                     <div className='bg-white flex justify-evenly my-5 rounded-lg py-5 px-10'>
                       <div className='w-full m-auto'>
                         <p className='text-blue-400 float-right text-xs'>2 min ago</p>
@@ -95,7 +95,9 @@ export default function DiscussionFourm(){
                             </div>
                           </div>
                       </div>
-                      <p className='text-blue-400 w-[10%] text-xs'>2 min ago</p>
+                      <div className='w-[10%]'>
+                        <p className='text-blue-400 text-xs'>2 min ago</p>
+                      </div>
                     </div>
                     <div className='bg-white flex justify-start my-5 rounded-lg py-5 px-10'>
                       <div className='w-[10%]'>
@@ -128,7 +130,9 @@ export default function DiscussionFourm(){
                             </div>
                           </div>
                       </div>
-                      <p className='text-blue-400 w-[10%] text-xs'>2 min ago</p>
+                      <div className='w-[10%]'>
+                        <p className='text-blue-400 text-xs'>2 min ago</p>
+                      </div>
                     </div>
                   </div>
                 </div>
