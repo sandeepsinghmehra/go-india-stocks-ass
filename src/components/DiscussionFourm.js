@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { AiOutlineEye } from 'react-icons/ai';
 import { FaRegHeart, FaHeart } from 'react-icons/fa';
-import { BiSolidMessageAltDetail, BiShareAlt, BiComment } from 'react-icons/bi';
+import { BiShareAlt, BiComment } from 'react-icons/bi';
 import { FiSearch } from 'react-icons/fi';
 import { FcBusinessman, FcBusinesswoman } from 'react-icons/fc';
 
@@ -64,11 +64,11 @@ export default function DiscussionFourm(){
                       </div>
                         
                     </div>
-                    <div className='bg-white flex justify-evenly my-5 rounded-lg py-5 px-10'>
-                      <div className='w-full m-auto'>
-                        <p className='text-blue-400 float-right text-xs'>2 min ago</p>
-                        <div className='flex'>
-                          <FcBusinessman size={40} className='bg-red-950 rounded-full' />
+                    <div className='bg-white flex justify-start my-5 rounded-lg py-5 px-10'>
+                      <div className='w-[10%]'>
+                        <FcBusinessman size={40} className='w-10 h-10 bg-red-950 rounded-full' />
+                      </div>
+                        <div className='flex w-4/5'>
                           <div>
                             <span><strong>Lorum Ipsum</strong></span>
                             <span className='w-fit h-8 px-1 py-1 bg-red-700 text-white font-light border border-solid rounded-full'>Sector 1</span>
@@ -95,7 +95,7 @@ export default function DiscussionFourm(){
                             </div>
                           </div>
                         </div>
-                      </div>
+                        <p className='text-blue-400 w-[10%] text-xs'>2 min ago</p>
                     </div>
                     <div className='bg-white flex justify-evenly my-5 rounded-lg py-5 px-10'>
                       <div className='w-full m-auto'>

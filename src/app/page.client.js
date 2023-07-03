@@ -29,8 +29,8 @@ function PageClientComponent() {
                 <DiscussionFourm />
               </div>
               <div className={`h-full hidden md:block ${isSidebarVisible ? 'w-1/3' : 'w-full'} p-5`}>
-              <h1 className='hidden lg:block uppercase text-xl font-bold text-red-400 bg-gray-100 h-8 pl-5'>Market Stories</h1>
-              <MarketStories />
+                <h1 className='hidden lg:block uppercase text-xl font-bold text-red-400 bg-gray-100 h-8 pl-5'>Market Stories</h1>
+                <MarketStories />
               </div>
             </div>
             <div className='flex lg:hidden w-full h-full flex-row bg-gray-100'>

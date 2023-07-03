@@ -31,6 +31,9 @@ body {
 .custom-height-market-story{
   height: calc(100% - 32px);
 }
+.custom-height-market-story-mobile{
+  height: calc(100% - 56px);
+}
 .discussion-section-height{
   height: calc(100% - 136px);
 }

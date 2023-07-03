@@ -30,15 +30,15 @@ const market_stories = [
 ]
 export default function MarketStories(){
     return (
-        <div id={"market-stories"} className='flex flex-wrap justify-between custom-height-market-story gap-5 overflow-auto p-5'>
+        <div id={"market-stories"} className='flex flex-wrap justify-between custom-height-market-story-mobile lg:custom-height-market-story gap-5 overflow-auto p-5'>
             {market_stories.map((story,i)=>(
-                <div key={i} className="relative w-fit h-fit flex place-items-center rounded-lg">
+                <div key={i} className="relative w-fit max-w-full h-fit flex flex-grow place-items-center rounded-lg">
                   <Image
-                    className="relative object-cover w-80 h-44 rounded-lg"
+                    className="relative object-cover w-80 max-w-full flex-grow h-44 rounded-lg"
                     src={story.image_url}
                     alt={story.alt}
                     width={180}
-                    height={30}
+                    height={180}
                     priority
                   />
                   <div className="absolute top-0 left-0 w-full h-full flex items-end justify-center rounded-lg">
