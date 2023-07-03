@@ -25,7 +25,7 @@ function PageClientComponent() {
             </button>
             <div className="hidden lg:flex h-full flex-row bg-gray-100">
               <div className={`h-full w-full md:${isSidebarVisible ? 'w-2/3' : 'w-full'} p-3 lg:p-5`}>
-                <h1 className='hidden lg:block uppercase text-xl font-bold text-red-400 h-8'>Discussion Fourm</h1>
+                <h1 className='flex items-center uppercase text-xl font-bold text-red-400 h-8'>Discussion Fourm</h1>
                 <DiscussionFourm />
               </div>
               <div className={`h-full hidden md:block ${isSidebarVisible ? 'w-1/3' : 'w-full'} p-5`}>

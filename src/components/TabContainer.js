@@ -11,7 +11,7 @@ const TabButtons = ({ activeTab, setActiveTab }) => {
     <div className="flex flex-row h-10 w-full">
       <button
         className={`px-4 py-2 w-1/2 ${
-          activeTab === 'discussion-fourm' ? `bg-blue-950 text-white border border-solid border-b-red-600 border-transparent` : 'bg-blue-900 text-white'
+          activeTab === 'discussion-fourm' ? `bg-blue-950 text-white border border-solid border-b-2 border-b-red-600 border-transparent` : 'bg-blue-900 text-white'
         }`}
         onClick={() => handleTabClick('discussion-fourm')}
       >
@@ -19,7 +19,7 @@ const TabButtons = ({ activeTab, setActiveTab }) => {
       </button>
       <button
         className={`px-4 py-2 w-1/2 ${
-          activeTab === 'market-stories' ? 'bg-blue-950 text-white border border-solid border-b-red-600 border-transparent' : 'bg-blue-900 text-white'
+          activeTab === 'market-stories' ? 'bg-blue-950 text-white border border-solid border-b-2 border-b-red-600 border-transparent' : 'bg-blue-900 text-white'
         }`}
         onClick={() => handleTabClick('market-stories')}
       >
@@ -34,7 +34,7 @@ const Tabs = () => {
     return (
         <div className='flex flex-col w-full h-full'>
             <TabButtons activeTab={activeTab} setActiveTab={setActiveTab} />
-            <div className="mt-4 pb-10 h-full">
+            <div className="mt-0 pb-10 h-full">
                 {activeTab === 'discussion-fourm' && <DiscussionFourm />}
                 {activeTab === 'market-stories' && <MarketStories />}
             </div>

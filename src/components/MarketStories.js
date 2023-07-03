@@ -12,20 +12,20 @@ const market_stories = [
     },{
       image_url: '/images/Borough-Market.webp',
       alt: 'Borough-Market',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit'
     },{
       image_url: '/images/mumbai-maharastraindia.jpeg',
       alt: 'Mumbai-Maharastraindia',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit'
     },
     {
       image_url: '/images/Borough-Market.webp',
       alt: 'Borough-Market',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit'
     },{
       image_url: '/images/mumbai-maharastraindia.jpeg',
       alt: 'Mumbai-Maharastraindia',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit'
     },
 ]
 export default function MarketStories(){
