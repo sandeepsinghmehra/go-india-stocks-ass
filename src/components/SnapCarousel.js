@@ -43,8 +43,8 @@ const Companies_info = [
 export default function SnapCarousel(){
     return (
         <>
-            <p className='uppercase text-sm lg:text-xl font-bold text-red-400 bg-white h-8 pl-5 flex items-center'>Featured Companies</p>
-            <div className="overflow-x-auto snap-x scroll-smooth flex relative bg-cyan-50 px-3 webkit-scrollbar" style={{ scrollSnapType: 'x mandatory', WebkitOverflowScrolling: 'touch', scrollbarWidth: 'none', '-ms-overflow-style': 'none' }} >
+            <p className='hidden uppercase text-sm lg:text-xl font-bold text-red-400 bg-white h-8 pl-5 lg:flex items-center'>Featured Companies</p>
+            <div className="overflow-x-auto snap-x scroll-smooth flex relative bg-cyan-50 px-3 pt-3 webkit-scrollbar" style={{ scrollSnapType: 'x mandatory', WebkitOverflowScrolling: 'touch', scrollbarWidth: 'none', '-ms-overflow-style': 'none' }} >
                 <div className="flex flex-nowrap">
                 {Companies_info.map((company, i)=>(
                     <Image
