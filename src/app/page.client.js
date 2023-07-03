@@ -21,7 +21,7 @@ function PageClientComponent() {
         )}
         <section className={`flex-1 w-full h-full relative ${isSidebarVisible ? 'ml-0' : 'ml-0'} bg-white transition-all duration-300`}>
             <button onClick={toggleSidebar} className='absolute top-64 origin-center h-20 bg-blue-900'>
-                <BiSolidRightArrow size={20} color={'white'} className='w-3 lg:w-5 ' />
+                <BiSolidRightArrow size={20} color={'white'} className='w-4 lg:w-5 ' />
             </button>
             <div className="hidden lg:flex h-full flex-row bg-gray-100">
               <div className={`h-full w-full md:${isSidebarVisible ? 'w-2/3' : 'w-full'} p-3 lg:p-5`}>
