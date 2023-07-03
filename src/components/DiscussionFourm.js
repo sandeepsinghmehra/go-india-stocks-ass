@@ -68,7 +68,7 @@ export default function DiscussionFourm(){
                       <div className='w-[10%]'>
                         <FcBusinessman size={40} className='w-10 h-10 bg-red-950 rounded-full' />
                       </div>
-                        <div className='flex w-4/5'>
+                      <div className='flex w-4/5'>
                           <div>
                             <span><strong>Lorum Ipsum</strong></span>
                             <span className='w-fit h-8 px-1 py-1 bg-red-700 text-white font-light border border-solid rounded-full'>Sector 1</span>
@@ -94,14 +94,14 @@ export default function DiscussionFourm(){
                               </div>
                             </div>
                           </div>
-                        </div>
-                        <p className='text-blue-400 w-[10%] text-xs'>2 min ago</p>
+                      </div>
+                      <p className='text-blue-400 w-[10%] text-xs'>2 min ago</p>
                     </div>
-                    <div className='bg-white flex justify-evenly my-5 rounded-lg py-5 px-10'>
-                      <div className='w-full m-auto'>
-                        <p className='text-blue-400 float-right text-xs'>2 min ago</p>
-                        <div className='flex'>
-                          <FcBusinesswoman size={40} className='bg-red-950 rounded-full' />
+                    <div className='bg-white flex justify-start my-5 rounded-lg py-5 px-10'>
+                      <div className='w-[10%]'>
+                        <FcBusinessman size={40} className='w-10 h-10 bg-red-950 rounded-full' />
+                      </div>
+                      <div className='flex w-4/5'>
                           <div>
                             <span><strong>Lorum Ipsum</strong></span>
                             <span className='w-fit h-8 px-1 py-1 bg-red-700 text-white font-light border border-solid rounded-full'>Sector 1</span>
@@ -109,7 +109,7 @@ export default function DiscussionFourm(){
                               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industy. Lorem Ipsum is</p>
                               <div className='flex justify-evenly w-full'>
                                 <div className='flex flex-row items-center'>
-                                  <FaHeart color='red'/>
+                                  <FaRegHeart color='red'/>
                                   <p>2k</p>
                                 </div>
                                 <div className='flex flex-row items-center'>
@@ -127,10 +127,8 @@ export default function DiscussionFourm(){
                               </div>
                             </div>
                           </div>
-                        </div>
-                        
                       </div>
-                        
+                      <p className='text-blue-400 w-[10%] text-xs'>2 min ago</p>
                     </div>
                   </div>
                 </div>
